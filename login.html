@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Tech Fire AP</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="body">
+
+<header class="main-header">
+  <div class="container header-content">
+    <div class="logo-area">
+      <a href="index.html" class="logo-link"><span class="fire-color logo-fire-effect">Tech</span> Fire AP</a>
+    </div>
+    <nav class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="videos.html">Videos</a>
+      <a href="tutorials.html">Tutorials</a>
+      <a href="#">Community</a>
+      <a href="contact.html">Contact</a>
+      <a href="#" id="dark-mode-toggle" class="mode-toggle-btn"><i class="fas fa-sun"></i> Light Mode</a>
+    </nav>
+    <div class="social-links-header">
+      <a href="https://www.youtube.com/@Tech_Fire_AP" target="_blank" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</header>
+
+<section class="auth-section">
+  <div class="auth-card container">
+    <h2 class="auth-title"><i class="fas fa-sign-in-alt fire-color"></i> User Login</h2>
+    <form class="auth-form" id="login-form">
+
+      <div class="form-group">
+        <label for="login-email">Email or Username</label>
+        <input type="text" id="login-email" placeholder="Enter your email or username" required>
+      </div>
+
+      <div class="form-group">
+        <label for="login-password">Password</label>
+        <input type="password" id="login-password" placeholder="Enter your password" required>
+      </div>
+      <div class="form-options">
+        <label>
+          <input type="checkbox"> Remember Me
+        </label>
+        <a href="forgot-password.html">Forgot Password?</a>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-full-width">Login</button>
+    </form>
+
+    <p class="auth-footer-text">
+      Don't have an account? <a href="register.html" class="fire-color">Register here</a>
+    </p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="copyright-bar">
+    <p>Copyright &copy; All Rights Reserved. Powered By <span class="fire-color">Tech Fire AP</span>.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
